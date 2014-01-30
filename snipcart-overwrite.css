@@ -1,0 +1,200 @@
+/* Change the style of every button */
+.snipcart-overwrite #snipcart-main-container a.snipcart-btn {
+    background-color: #82999d;
+    color: #fff;
+    font-family: Verdana, sans-serif;
+}
+
+/* Add a hover style the buttons */
+.snipcart-overwrite #snipcart-main-container a.snipcart-btn:hover {
+    color: #333;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+/* Change the style of the primary buttons */
+.snipcart-overwrite #snipcart-main-container a.snipcart-next,
+.snipcart-overwrite #snipcart-main-container a.snipcart-finalize,
+.snipcart-overwrite #snipcart-main-container a.snipcart-mainaction {
+    background: #50bcd0;
+    border: none;
+    text-shadow: none;
+}
+
+/* Change the default color of links */
+.snipcart-overwrite #snipcart-main-container a {
+    color: #333;
+}
+
+/* Remove the footer with "Powered by Snipcart" */
+.snipcart-overwrite #snipcart-footer {
+    display: none;
+}
+
+/* Change the title color and add a logo*/
+.snipcart-overwrite #snipcart-header #snipcart-title {
+    color: #50bcd0;
+    background: url('../images/snipcart-blue.png') no-repeat 0 center;
+    padding-left: 60px;
+}
+
+/* Change the color of the header, add a blue border so we can see the "x" button,
+    add a shadow for effect and make sure this shadow is over every element */
+.snipcart-overwrite #snipcart-header {
+    background: #eee;
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:    0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+    box-shadow:         0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+    border-top: 30px solid #50bcd0;
+    padding-top: 10px;
+    position: relative;
+    z-index: 200;
+}
+
+/* Make sure the "x" button is always in the header top border */
+.snipcart-overwrite #snipcart-close {
+    top: 10px;
+}
+
+/* Change the style of the total box */
+.snipcart-overwrite #snipcart-header #snipcart-header-total {
+    padding: 1px;
+    background: #fff;
+    border-color: #bbb;
+}
+.snipcart-overwrite #snipcart-header #snipcart-total {
+    background-color: transparent;
+    color: #333;
+    border: none;
+    opacity: 0.5;
+}
+.snipcart-overwrite #snipcart-header #snipcart-total span {
+    color: #333;
+}
+
+/* Change the appearance of the cart bottom part with the action buttons so that
+     it is similar to the header*/
+.snipcart-overwrite #snipcart-main-container div#snipcart-actions,
+.snipcart-overwrite #snipcart-main-container div.snipcart-additional-option {
+    background: #eee;
+    -webkit-box-shadow: 0px -2px 2px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow:    0px -2px 2px 0px rgba(0, 0, 0, 0.3);
+    box-shadow:         0px -2px 2px 0px rgba(0, 0, 0, 0.3);
+    border-bottom: 8px solid #50bcd0;
+}
+
+/* Push the middle part away from the header and the bottom part */
+.snipcart-overwrite #snipcart-main-content #snipcart-sub-content {
+    padding-top: 20px;
+}
+.snipcart-overwrite #snipcart-main-content .snipcart-step-container {
+    padding-bottom: 20px;
+}
+
+.snipcart-overwrite #snipcart-main-container #snipcart-cartitems-continue-top {
+    top: 65px;
+}
+
+/* Change the font-family of every element using brandon grotesque */
+.snipcart-overwrite #snipcart-main-container span.snipcart-unit-price, 
+.snipcart-overwrite #snipcart-main-container span.snipcart-total-price,
+.snipcart-overwrite #snipcart-main-container table.snipcart-list span.snipcart-product-name,
+.snipcart-overwrite #snipcart-main-container table.snipcart-list span.snipcart-shipping-method-name,
+.snipcart-overwrite  #snipcart-main-container table.snipcart-list span.snipcart-shipping-method-price,
+.snipcart-overwrite #snipcart-main-container table.snipcart-list span.snipcart-confirm-item-quantity,
+.snipcart-overwrite #snipcart-main-container table.snipcart-list span.snipcart-confirm-item-price,
+.snipcart-overwrite #snipcart-main-container table.snipcart-list span.snipcart-confirm-item-total-price,
+.snipcart-overwrite #snipcart-main-container label,
+.snipcart-overwrite ul#snipcart-steps li span.snipcart-step-text,
+.snipcart-overwrite #snipcart-main-container table.snipcart-list th,
+.snipcart-overwrite #snipcart-main-content .snipcart-column span.snipcart-title,
+.snipcart-overwrite table#snipcart-confirm-prices tr td span,
+.snipcart-overwrite #snipcart-main-container .snipcart-full-width-text span.snipcart-title,
+.snipcart-overwrite #snipcart-main-container .snipcart-full-width-text,
+.snipcart-overwrite #snipcart-step-content-emptycart .snipcart-full-width-text p,
+.snipcart-overwrite #snipcart-blocked .snipcart-full-width-text p,
+.snipcart-overwrite #snipcart-header #snipcart-total span,
+.snipcart-overwrite #snipcart-header #snipcart-title  {
+    font-family: Verdana, sans-serif;
+}
+
+/* Change the appearance of the step tabs */
+.snipcart-overwrite ul#snipcart-steps li {
+    background: #eee;
+    opacity: 0.5;
+}
+.snipcart-overwrite ul#snipcart-steps li.active {
+    background-color: #fff;
+    opacity: 1;
+}
+.snipcart-overwrite ul#snipcart-steps {
+    background: transparent;
+}
+
+/* Change the background color of the promocodes section*/
+.snipcart-overwrite #snipcart-promocodes {
+    background: #fbfbfb;
+}
+
+/* Confirmation error textarea  */
+.snipcart-overwrite #snipcart-main-container .snipcart-comments-box textarea {
+    resize: none;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    background: #fbfbfb;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+/* Empty cart message*/
+.snipcart-overwrite #snipcart-step-content-emptycart .snipcart-full-width-text p {
+    color: #333;
+    padding-bottom: 20px;
+}
+
+/* Sign in user bar */
+.snipcart-overwrite #snipcart-main-content #snipcart-current-user #snipcart-user-infos {
+    background: #82999d;
+}
+
+/* We need the !important here because there is one in the default stylesheet */
+.snipcart-overwrite #snipcart-main-content #snipcart-current-user .snipcart-welcome {
+    color: #ddd !important;
+}
+
+/* Change the step icons to number */
+.snipcart-overwrite ul#snipcart-steps li span.snipcart-step-number {
+    font-family: Verdana, sans-serif;
+}
+
+.snipcart-overwrite .icon-Snipcart-6:before {
+    content: "1";
+}
+
+.snipcart-overwrite .icon-Snipcart-4:before {
+    content: "2";
+}
+
+.snipcart-overwrite .icon-Snipcart-3:before {
+    content: "3";
+}
+
+.snipcart-overwrite .icon-Snipcart-2:before {
+    content: "4";
+}
+.snipcart-overwrite .icon-Snipcart:before {
+    content: "5";
+}
+.snipcart-overwrite .icon-Snipcart-5:before {
+    content: "6";
+}
+.snipcart-overwrite .icon-Snipcart-7:before {
+    content: "7";
+}
